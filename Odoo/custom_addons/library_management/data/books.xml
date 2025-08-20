@@ -1,0 +1,13 @@
+<odoo>
+    <record id="book_python_101" model="library_management.book">
+        <field name="name">Python 101</field>
+        <field name="author">Guido van Rossum</field>
+        <field name="isbn">978-1-23456-789-0</field>
+    </record>
+
+    <record id="book_odoo_guide" model="library_management.book">
+        <field name="name">Odoo Development Guide</field>
+        <field name="author">Fabien Pinckaers</field>
+        <field name="isbn">978-1-98765-432-1</field>
+    </record>
+</odoo>
