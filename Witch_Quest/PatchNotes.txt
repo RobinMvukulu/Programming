@@ -123,6 +123,7 @@
 - Created a first build for Windows
 - Created a first build for MacOS
 
-[NEXT]
-- Create basic Menu with options like "New Game" / "Quit"
-- After winning 15/15 should send "CONGRATULATIONS YOU FINISH THE TUTORIAL" box, on_click should close the game.
+[22/08/2025]
+- Added Basic Pause Menu.
+- Added Synopsis Box.
+- Quit the game if DEFEAT or WIN after 15/15.
