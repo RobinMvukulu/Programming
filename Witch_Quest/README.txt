@@ -1,15 +1,15 @@
 ========================================
- Witch: The Survivor Quest (Windows build)
+Summoner's Wrath (Windows build)
 ========================================
 
 Version: Alpha
-Release Date: [21/08/2025]  
+Release Date: [22/08/2025]  
 Status: Sandbox
 
 ----------------------------------------
  About
 ----------------------------------------
-This is an early sandbox build of *Witch: The Survivor Quest*.  
+This is an early sandbox build of *Summoner's Wrath*.  
 The purpose of this release is to give the Opportunity to users 
 to test core mechanics, gather feedback,  
 and showcase the progress of the project.  
@@ -18,17 +18,26 @@ Expect bugs, unfinished features, and placeholder assets.
 This is **not** the final version of the game.  
 
 ----------------------------------------
+ Synopsis
+----------------------------------------
+Summoner's Wrath is an autobattler roguelike game where the main 
+goal is to face the King's force to take revenge for the genocide 
+of the sorcerers that took place during the Hundred Years' War. 
+The player play a Witch who have the only ability to summon monster 
+and those monsters are mysteriously linked to human's folklore and imagination.
+
+----------------------------------------
  How to Play
 ----------------------------------------
-1. Download and extract all files from the .zip archive.  
-2. Run `Witch_The_Survivor_Quest.exe`.  
-3. Make sure `Witch_The_Survivor_Quest.pck` is in the same folder as the .exe.  
+1. Download the .exe file 
+2. Run `Summoners_Wrath.exe`.  
 
 ----------------------------------------
  Controls
 ----------------------------------------
 - [LEFT CLICK] : Move / Information in GUI Boxes.
 - [RIGHT CLICK] : Action in GUI Boxes
+- [KEY ESC] : Open Pause Menu
 
 *(Controls may change in future builds.)*  
 
@@ -42,8 +51,6 @@ See the `Patch_Notes.txt` file for detailed changes and updates.
 ----------------------------------------
 - No sound effects
 - No music
-- No QUIT Method
-- No END Method even after the 15/15 rounds clear.
 - Most of Monsters based on revive/transform during fights can make bugs happen and need a total review on synchronising events.
 - Some features are incomplete or missing.
 
