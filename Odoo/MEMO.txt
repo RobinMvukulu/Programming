@@ -1,0 +1,5 @@
+docker compose up -d -> Lancement
+docker compose ps -> Verifie
+project-db-1        postgres:15   Up             5432/tcp
+project-odoo-1      odoo:17.0     Up             8069/tcp
+project-pgadmin-1   dpage/pgadmin Up             5050/tcp

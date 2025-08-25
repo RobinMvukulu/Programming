@@ -1,0 +1,131 @@
+[28/07/2025]
+- Completed MysteriousDen Event
+- Resolved bug where it was impossible to use an item without showing it's description in BagBox.
+- Resolved bug where it was not possible anymore to use consumables of a certain type until there is 0 left.
+- Resolved bug where the items were not showing in UnitBoxContainer when equiped.
+- Resolved a graphical bug where the description in BagBox would stay after using an item instead of reset().
+- Completed Unfaithful Encounter.
+- Resolved a bug on equipments where in some cases would not add stats to the owner.
+
+[29/07/2025]
+- When clic on UnitBoxFront items, a bug make me left clic before right clic to unequip
+
+[30/07/2025]
+- Cleaned UIManager, now manage all boxes, dialogs and HUD.
+- Resolved a bug where unequip an item in UnitBoxContainer would not update the BagBox.
+- Resolved a bug where units being asleep did not wake up after being hit by an attack.
+- Created a way to count boxes and dialogs in order to manage dynamically layers in UIManager.
+- On clic on weapon empty slot in UnitBox now open a BagBox with Equipments and on right clic can put the Equipment on the unit selected.
+
+[31/07/2025]
+- Cleaned all UI scripts and scenes.
+- Redefined design for UnitBox
+- Modified some design for various boxes.
+- Created Sprite icons for families, can be useful for Monsterdex.
+
+[01/08/2025]
+- Added a basic AffinitiesBox, need to be improved in the future
+- Changed architecture of Unit
+- Resolved bug where the item would not disappear after being removed from UnitBox
+- Resolved bug where the item would transfer from unit to unit if Moving using the arrows
+- Resolved bug where player could not open a BagBox when clicking on an empty item slot
+- Resolved bug where units K.O would fight the next battle and not faint before receiving damages.
+- Made all icon the same format to facilitate any addition (64,64)
+- Fixed temporary the problem of all Boxes being 20 pixels to the right, put -20px in the each Box.
+- Resolved bug where it was possible to open the BagBox during a Battle even by bypassing it from UnitBox and clicking on the empty item slots.
+- Added Item: Haste Tonic.
+- Added Item: Ether.
+- Resolved various bugs around Haste Tonic and Ether use function.
+- Resolved bug where equipments can not get unequip after being equiped from the UnitBox.
+- Resolved bug where if two items were the same type then it will always unequip the item 1.
+- Resolved bug where if two slot were free it would Always put the item on slot 1 even you clic on slot 2 to open BagBox.
+- Added ScrollContainer as parent of ItemContainer to be able to scroll in the ShopBox.
+
+[02/08/2025]
+- Changed Consumables text and names
+- Added a layer_stack variable to prevent clicking on button that are not on the current layer of the Box.
+- Resolved a bug where it was impossible to remove an Equipment.
+- Resolved a minor bug where the update of the BagBox would not take specific pouch in account to update because of layers problems.
+- Resolved various bugs around chosing a unit to send in the Mysterious Den.
+- Added Event Boxes and HUD to the layer_stack mecanism.
+- Balanced rewards for the MysteriousDen.
+- Resolved bug where it layer_stack was blocked during release monster procedure.
+- Resolved bug where the sacrifice would be K.O even if the player did not confirm it and UnitsBox was not closing after the choice.
+- Added Title for BagBox pouches
+- Added a verify_first_plan() function to prevent clicking on the map if there is a Box in the layer stack.
+
+[03/08/2025]
+- Created new Basic Tileset.
+- All Events tiles are now centrlized.
+- Added various setup of BattleTiles setup.
+- A random BattleTiles setup is chosen every BattleMap
+- Cleaned Basic Tiles.
+- Resolved bug where Mini Blob would not take actual hp from his owner on the Jelly Split.
+
+[04/08/2025]
+- Resolved a bug where the level attributed during summon was in fact not attributed.
+- Resolved a bug where the Equipment which were equiped during summon were not increasing unit's stats.
+
+[06/08/2025]
+- Modified Monsters and Enemies stats
+- Cleaned most of Data.ods and DataFuture.ods
+- Started the créations of various tier 0 enemies.
+
+[08/08/2025]
+- Finished Farmer Sprite
+- Fully Added Farmer
+- Added Pitch Fork in items
+- Balanced enemies level and chance to have a weapon because the game was too hard in early game.
+- Finished Lumberjack Sprite
+- Fully Added Lumberjack
+- Added Ax in items
+
+[09/08/2025]
+- Finished Blacksmith Sprite
+- Fully Added Blacksmith
+- Added Anvil in items
+- Added Hammer in items
+- Modified the way to add and remove stats from equipments to facilitate Blacksmith implementation.
+- Suppressed the equip functions for Ingrédients (making less and less sense in my mind).
+- Balanced stats for tier 1 items.
+- Resolved bug where Timber Blow would increase enemy DEF.
+- Resolved bug where Harvest Strike was not inflincting bleed to the target.
+
+[09/08/2025]
+- Finished Thief Sprite
+- Fully Added Thief
+- Added Dagger in items
+- Resolved bug where ChooseRelease option would block UnitsBox
+- Resolved bug where clicking on skill then item in UnitBox would still show some Shown information without reset.
+- Resolved bug where it was not updating gold in thr ShopBox
+- Resolved bug where the Unit health bar would not update on level up.
+- Cleaned Battle folder, now all the ressources are dispatched.
+
+[12/08/2025]
+- Finished Bard Sprite
+- Fully Added Bard
+- Added Lyre in items
+- Changed the number of battles, number of loot and Added a few game CONST.
+- Resolved bug where the restriction would not update according to the witch level.
+- Resolved bug where the mutation box would not open
+- Resolved bug where the statuses would not show on UnitsBox and UnitBox
+- Resolved bug where it was possible to loot the same equipment twice
+- Resolved bug where the bleeding damage were not set appropriately
+
+[14/08/2025]
+- Finished Skeleton Sprite
+- Fully Added Skeleton
+- Added Skeleton Head in items
+- Added Cursed Elixir in items
+- Resolved bug where the resurrection from Skeleton would not work properly
+
+[21/08/2025]
+- Created a first build for Windows
+- Created a first build for MacOS
+
+[22/08/2025]
+- Added Basic Pause Menu.
+- Added Synopsis Box.
+- Quit the game if DEFEAT or WIN after 15/15.
+- Added Undead family
+- Changed Undead and Demon family icon to fit the new art style.
