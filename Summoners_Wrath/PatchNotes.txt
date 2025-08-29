@@ -129,3 +129,13 @@
 - Quit the game if DEFEAT or WIN after 15/15.
 - Added Undead family
 - Changed Undead and Demon family icon to fit the new art style.
+
+[27/08/2025]
+- Added Slime Family
+- Resolved all bugs around Family
+- Added customized icon for statuses
+
+[NEXT]
+- Design and create: Imp.
+- Design and create: Gargoyl.
+- Create the event: Demon Pact

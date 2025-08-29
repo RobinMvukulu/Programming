@@ -9,6 +9,7 @@
                 <field name="isbn"/>
                 <field name="price"/>
                 <field name="copies_available"/>
+                <field name="product_id"/>
             </tree>
         </field>
     </record>
@@ -24,22 +25,23 @@
                         <field name="author"/>
                         <field name="isbn"/>
                         <field name="price"/>
-                        <field name="copies_available"/>
+                        <field name="product_id"/>
+                        <field name="copies_available" readonly="1"/>
                     </group>
+                    <footer>
+                        <button string="Create Product" type="object" name="create_product_for_book" class="btn-primary"/>
+                    </footer>
                 </sheet>
             </form>
         </field>
     </record>
 
     <menuitem id="menu_library_root" name="Library"/>
-    <menuitem id="menu_library_books" name="Books" parent="menu_library_root"/>
-
     <record id="action_library_books" model="ir.actions.act_window">
         <field name="name">Books</field>
         <field name="res_model">library.book</field>
         <field name="view_mode">tree,form</field>
         <field name="view_id" ref="view_library_book_tree"/>
     </record>
-
     <menuitem id="menu_library_books_action" name="Books" parent="menu_library_root" action="action_library_books"/>
 </odoo>
