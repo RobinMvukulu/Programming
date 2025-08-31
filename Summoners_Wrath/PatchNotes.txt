@@ -135,7 +135,11 @@
 - Resolved all bugs around Family
 - Added customized icon for statuses
 
-[NEXT]
+[31/08/2025]
 - Design and create: Imp.
 - Design and create: Gargoyl.
-- Create the event: Demon Pact
+- Implemented Imp (Skills, Ingredient, Creation)
+- Implemented Gargoyl (Skills, Ingredient, Creation)
+- Revamp the statuses.
+- Revamp the bffable stats.
+- Added Taunt as a status
