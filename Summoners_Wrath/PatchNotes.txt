@@ -141,5 +141,24 @@
 - Implemented Imp (Skills, Ingredient, Creation)
 - Implemented Gargoyl (Skills, Ingredient, Creation)
 - Revamp the statuses.
-- Revamp the bffable stats.
+- Revamp the buffable stats.
 - Added Taunt as a status
+
+[02/09/2025]
+- Revamp Skills description and adapted code.
+- Resolved bug where stats boost would not show the animation properly
+- Resolved bug on Bloodthirst (Mutation) and Bloodlust (Skill) would not activate on enemies K.O
+
+[03/09/2025]
+- Reworked UI for AffinitiesBox (No more evolution line, need to reflect on adding it or not)
+- Created a MembersBox to show the members of the Family
+- Reworked UI for UnitBox (Only 2 skills per units for the moment, will reflect on it later)
+- Resolved bug where consumables in ShopBox would disappear if bought.
+- Added Equipment Christian Cross
+- Added Equipment Straw Hat
+- Added Equipment Work Gloves
+- Added Equipment Agility Cloak
+- Added Equipment Anvil
+
+
+
