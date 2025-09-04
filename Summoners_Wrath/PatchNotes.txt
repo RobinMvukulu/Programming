@@ -159,6 +159,11 @@
 - Added Equipment Work Gloves
 - Added Equipment Agility Cloak
 - Added Equipment Anvil
+- Fixed Resurrection to be treated as a skill and not as Something only Skeleton can have.
+- Resolved Bug where some boost would not show correctly
 
 
-
+[04/09/2025]
+- Resolved bug where Bloodthirst mutation and Bramble buff from Nature family were not permanent and would disappear after being K.O
+- Created an InfoBox to give information on units on the battlefield after RIGHT CLICK on them.
+- Created a DescBox to give a description on specific data in the InfoBox by LEFT CLICK on the buttons.
