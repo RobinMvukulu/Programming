@@ -167,3 +167,10 @@
 - Resolved bug where Bloodthirst mutation and Bramble buff from Nature family were not permanent and would disappear after being K.O
 - Created an InfoBox to give information on units on the battlefield after RIGHT CLICK on them.
 - Created a DescBox to give a description on specific data in the InfoBox by LEFT CLICK on the buttons.
+
+[15/09/2025]
+- Resolved a bug where Skill Sweet Lullaby would not activate even if the skill gauge is full.
+- Resolved a bug where the Status Sleep animation would keep going even after the status is erase.
+- Resolved a bug where you could swap monsters while they are moving during battle placement.
+- Resolved a bug where the release option while having too many monsters would not work properly.
+- Resolved a bug where BagBox would not automatically close if Equipment was set from an UnitBox.
