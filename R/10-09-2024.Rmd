@@ -1,0 +1,83 @@
+---
+title: "10-09-2024"
+author: "Mvukulu Robin"
+date: "2024-09-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(tidytuesdayR)
+library(ggplot2)
+library(lubridate)
+library(stringr)
+```
+
+```{r data-loading, include=FALSE}
+tuesdata <- tidytuesdayR::tt_load("2024-01-09")
+canada_births_1991_2022 <- tuesdata$canada_births_1991_2022
+nhl_player_births <- tuesdata$nhl_player_births
+nhl_rosters <- tuesdata$nhl_rosters
+nhl_teams <- tuesdata$nhl_teams
+```
+
+```{r data-summary-1}
+filtered_canada_births_2019_2022 <- canada_births_1991_2022 |>
+  filter((year >= 2019 & year <= 2022) 
+         & births >= "32000") %>%
+  group_by(month) %>%
+  summarise(
+    count= n()
+  )
+```
+
+```{r plot-1, echo=TRUE}
+print(filtered_canada_births_2019_2022)
+ggplot(filtered_canada_births_2019_2022, aes(x=month, y=count)) +
+         geom_col()
+```
+
+```{r data-summary-2}
+filtered_nhl_player_births <- nhl_player_births |>
+  filter(birth_country != "CAN" &
+           (last_name == "Liam" | last_name == "James" | last_name == "William")) %>%
+  group_by(birth_country) %>%
+  summarise(
+    country=birth_country,
+    count=n(),
+    id=player_id,
+    year=year(birth_date),
+    name=last_name
+  )
+```
+
+```{r plot-2, echo=TRUE}
+print(filtered_nhl_player_births)
+```
+
+```{r data-summary-3}
+filtered_nhl_rosters <- nhl_rosters |>
+  filter((position_type == "goalies" | position_type == "defensemen") &
+           str_starts(team_code, "M")) %>%
+  group_by(team_code) %>%
+  summarise(
+    count=n()
+  )
+```
+
+```{r plot-3, echo=TRUE}
+print(filtered_nhl_rosters)
+ggplot(filtered_nhl_rosters, aes(x=team_code, y=count)) +
+  geom_col()
+```
+
+```{r data-summary-4}
+filtered_nhl_teams <- nhl_teams |>
+  filter(str_starts(full_name, "T")) %>%
+  group_by(team_code)
+```
+
+```{r plot-4, echo=TRUE}
+print(filtered_nhl_teams)
+```
+

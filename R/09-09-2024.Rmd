@@ -1,0 +1,47 @@
+---
+title: "09-09-2024"
+author: "Mvukulu Robin"
+date: "2024-09-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(tidytuesdayR)
+library(ggplot2)
+```
+
+```{r data-loading, include=FALSE}
+# Load data
+tuesdata <- tidytuesdayR::tt_load('2024-09-10')
+college_admissions <- tuesdata$college_admissions
+```
+
+```{r data-summary}
+sum_grouped_college_admissions <- college_admissions %>%
+  group_by(par_income_lab) %>%
+  summarise(
+    count = n(),
+    mean_par_income_bin = mean(par_income_bin, na.rm = TRUE),
+    median_par_income_bin = median(par_income_bin, na.rm = TRUE),
+    mean_attend_level = mean(attend_level, na.rm = TRUE)
+  )
+```
+
+```{r plot, echo=TRUE}
+print(sum_grouped_college_admissions)
+
+# Convert categorical variable to numeric
+sum_grouped_college_admissions <- sum_grouped_college_admissions %>%
+  mutate(par_income_lab_num = as.numeric(factor(par_income_lab)))
+
+# Plot with numeric conversion for linear regression
+ggplot(sum_grouped_college_admissions, aes(x = par_income_lab_num, y = mean_par_income_bin, color = par_income_lab)) + 
+  geom_point() +
+  geom_smooth(method = 'lm') +
+  scale_x_continuous(breaks = sum_grouped_college_admissions$par_income_lab_num, 
+                     labels = sum_grouped_college_admissions$par_income_lab) +
+  labs(x = "Income Category", y = "Mean Par Income Bin", title = "Mean Par Income Bin by Income Category with Regression Line") +
+  theme_minimal()
+```
+
