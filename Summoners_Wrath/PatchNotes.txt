@@ -174,3 +174,12 @@
 - Resolved a bug where you could swap monsters while they are moving during battle placement.
 - Resolved a bug where the release option while having too many monsters would not work properly.
 - Resolved a bug where BagBox would not automatically close if Equipment was set from an UnitBox.
+
+[08/10/2025] #COME BACK -> 1 MONSTER PER DAY
+- Added Fire Elemental
+- Added Fiery Elixir
+- Added Fiery Spirit
+- Added Status Burn divide damage dealt by 2
+- Added Ability Flamethrower
+- Added Passive Ignite
+- Added Family Elements
