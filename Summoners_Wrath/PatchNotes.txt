@@ -183,3 +183,14 @@
 - Added Ability Flamethrower
 - Added Passive Ignite
 - Added Family Elements
+
+[09/10/2025]
+- Added Water Elemental
+- Added Icy Elixir
+- Added Icy Spirit
+- Added Status Freeze divide AS and SPEED by 2
+- Added Ability Soothing Cloud
+- Added Passive Frostbite
+- Only show circle (Attack and Skill range) when right-clic on unit
+- Poison now deal more damage each seconds, reset if the unit is no more poisoned
+- Resolved a bug where it was possible to move units while they were placing before the battle which led to make possible to have multiple units on the same tile. (A few case still can make it happen, will be resolved in coming days
