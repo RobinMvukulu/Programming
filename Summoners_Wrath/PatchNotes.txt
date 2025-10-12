@@ -194,3 +194,28 @@
 - Only show circle (Attack and Skill range) when right-clic on unit
 - Poison now deal more damage each seconds, reset if the unit is no more poisoned
 - Resolved a bug where it was possible to move units while they were placing before the battle which led to make possible to have multiple units on the same tile. (A few case still can make it happen, will be resolved in coming days
+- Resolved a bug where the status IMMORTAL would make the game crash
+
+[10/10/2025]
+- Added Earth Elemental
+- Added Rocky Elixir
+- Added Rocky Skin
+- Added Ability Earthquake
+- Added Passive Hard as Rock
+- Added family Stones (Gargoyl + Earth Elem)
+- Resolved a bug where Fire Elem would do friendly damage using Flamethrower
+- Paralyze now stop all abilities CD count down until the status is gone
+- Reworked Reward Box now show a brief description for items when mouse on them.
+
+[11/10/2025]
+- Added a Battle Report at the Reward Box at the end of the battle.
+- The battle report now show kills per monsters.
+- The battle report now show heal per monsters.
+- The battle report now show damage taken per monsters.
+- The battle report now show damage dealt per monsters.
+
+[12/10/2025]
+- Reviewed Items descriptions.
+- Balance: For the few runs done I have notice the game can be a little bit unfair with Unit Cap restriction the progression in Unit Cap is now easier.
+- Families active are now shown in the HUD of the player at the top.
+- Desc Box now open everywhere by just mouse entering an icon. (If it does not for example in ShopBox, BagBox…) It's either not programmed yet or not necessary.
