@@ -219,3 +219,8 @@
 - Balance: For the few runs done I have notice the game can be a little bit unfair with Unit Cap restriction the progression in Unit Cap is now easier.
 - Families active are now shown in the HUD of the player at the top.
 - Desc Box now open everywhere by just mouse entering an icon. (If it does not for example in ShopBox, BagBox…) It's either not programmed yet or not necessary.
+
+[13/10/2025]
+- Resolved a bug where the descriptions would not show corretly during battle for skills and items when mouse entered.
+- Reworked Bag Box now show a brief description for items when mouse on them.
+- Resolved various bugs that would make the new usage of consumables and equipments to not work.
