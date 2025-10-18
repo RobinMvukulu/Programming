@@ -223,4 +223,29 @@
 [13/10/2025]
 - Resolved a bug where the descriptions would not show corretly during battle for skills and items when mouse entered.
 - Reworked Bag Box now show a brief description for items when mouse on them.
-- Resolved various bugs that would make the new usage of consumables and equipments to not work.
+- Resolved varions bugs that would make the new usage of consumables and equipments to not work.
+
+[14/10/2025]
+- Blob update -> Now spawn a MiniBlob on Jelly Splash instead of stun in AOE
+- Fungi update -> Now propagate spores between enemies when they are K.O
+
+[15/10/2025]
+- Added Wind Elemental
+- Added Windy Elixir
+- Added Tailwind
+- Added Ability Tempest Drive
+- Added Passive Gathering Storm
+- Added Family Invisibles (Wind Elem + Ghost (will be Added))
+
+[18/10/2025]
+- Reworked UnitBox
+- Reworked HUD -> Now show more informations on the unit on RIGHT CLICK on them (EXP, Stats...
+
+[19/10/2025]
+- Added EXP Animation
+- Added Level Up Animation
+- Resolved a bug where it was possible to go to the next Area without doing fights
+- Resolved a bug where Mini Blob from Jelly Splash would not be counted as a minion in some cases
+- Resolved a bug where Fungi would not use Spore Cloud (And litteraly walk)
+- Added
+- Resolved various bugs around equipments attributations
