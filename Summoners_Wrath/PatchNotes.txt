@@ -249,3 +249,15 @@
 - Resolved a bug where Fungi would not use Spore Cloud (And litteraly walk)
 - Added
 - Resolved various bugs around equipments attributations
+
+[26/10/2025]
+- Reworked Shop Box.
+- Bloodthirst Elixir now activated BLEED based on ATK (Will be updated for balance reasons)
+- Resolved a bug where unequip items from UnitBox  would create a copy of items in some cases
+- Resolved a bug where Flamethrower from Fire Elem would hit and burn allies.
+- Resolved a bug where some DescBox would pop-up even if the object is in background position.
+- Added Event Black Market (The Units info will be shown in a next update to show at least stats, families and skills of the monster).
+- Added NPC Ancient Mage to sell Ingrédients.
+- Added NPC Alchemist to sell Creations.
+- Added NPC Apprentice to sell Consumables.
+- Added NPC Occult Fan to sell Pets. (Just need to create some Pets now, new fun mecanic !!)
