@@ -261,3 +261,35 @@
 - Added NPC Alchemist to sell Creations.
 - Added NPC Apprentice to sell Consumables.
 - Added NPC Occult Fan to sell Pets. (Just need to create some Pets now, new fun mecanic !!)
+
+[31/10/2025]
+- Added a Pets seller in Magical Shop
+- Added Owl
+- Added Mouse
+- Added Black Cat
+- Added Raven
+- Added Snake
+- Added Toad
+- Added Spider
+- Added Snake
+- Resolved a bug where player could be soft-lock when a Description box was open behind a Units box
+- Resolved a bug where the items bought would stay in the Shop even if it was not a Consumables Shop.
+
+[01/10/2025]
+- Resolved a bug where most attacks would not take the full context before being used.
+- Harmonized modify_take_damage methods.
+- Harmonized modify_attack.
+- Nerf: BLIND now Halve the ACC instead of making the Unit unable to touch a single attack.
+- Resolved a bug where families won't display well if clicked on different families in Affinities Box.
+- Resolved a bug where the Release button would make some bugs with families.
+- Resolved a bug where some buff could not be erased.
+- Resolved a bug where minions would stay even if their owner would be released or sacrificed.
+- Nerf: Undead family now only boost when another Undead monster is K.O instead of on all allies.
+- Resolved a bug where Haste would not be updated and counted for the final cd of the skill.
+- Resolved various bugs around Pets addition, mainly based on structural problems.
+
+[02/10/2025]
+- Resolved various bugs around Monsters addition, mainly based on structural problems.
+- Reworked families descriptions in the Affinities Box.
+- Nerf: Family only count unique species of monsters into account for the family threshold.
+
