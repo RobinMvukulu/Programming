@@ -293,3 +293,33 @@
 - Reworked families descriptions in the Affinities Box.
 - Nerf: Family only count unique species of monsters into account for the family threshold.
 
+[05/10/2025]
+- Reworked the system to make Evolution possible.
+- Added Floating Eye sub-evolution to Evil Eye (Clean sprite + Ability Bright Gaze)
+- Modified Mini Blob sub-evolution to Blob (Clean sprite + Ability Jelly Spit + Passive Jelly Tenacity)
+- Added Gluant sub-evolution to Ooze (Clean sprite + Ability Slimy Spit)
+
+[07/10/2025]
+- Resolved a bug where Master Crafter Ability would make the game crash.
+- Modified Rootling sub-evolution to Mandragora (Clean sprite + Ability Sylvan Snare)
+- Modified Fungi sub-evolution to Fungeus (Clean sprite + Ability Spore Burst + Passive Spore Touch)
+- Added Wisp sub-evolution to Ghost (Clean sprite + Ability Spectral Bite + Passive Soul Eater)
+- Created icons for monsters.
+
+[08/10/2025]
+- Reworked UnitsBox
+- Added Tiers Stars to icons of monsters
+- Resolved a bug where if an enemy would be K.O from a status affected by a pet, it would crash because the kill could not be affected to an unit
+- Resolved a bug where even if a melee unit had the range to do a skill it would move toward the target in melee range
+- Resolved a bug where Root animation would not drawback correctly
+- Added status FEAR: Halve ATK and make the target unable to use Abilities.
+- Resolved a bug where PARALYZE and FEARwould not make the target shake
+- Modified status BURN: Halve DEF and deal dot damage
+- Resolved a bug where projectile would still be Added to the scene if the target was already K.O.
+- Resolved a bug where having 2 MagicalShop in the same map would make the game crash if certain items were bought
+- Resolved a bug where pets and monsters could still be non unique species in Shop
+- Resolved a bug where some Battle Bars would not fit
+- Resolved a bug where the first attack would  be sent without any casting time
+
+[NEXT]
+This Sandbox will not have any update for at least 1 weak as I focus on different projects, my main goal for now is to focus on monsters, evolution line and Player UI.
