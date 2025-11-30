@@ -275,7 +275,7 @@
 - Resolved a bug where player could be soft-lock when a Description box was open behind a Units box
 - Resolved a bug where the items bought would stay in the Shop even if it was not a Consumables Shop.
 
-[01/10/2025]
+[01/11/2025]
 - Resolved a bug where most attacks would not take the full context before being used.
 - Harmonized modify_take_damage methods.
 - Harmonized modify_attack.
@@ -288,25 +288,25 @@
 - Resolved a bug where Haste would not be updated and counted for the final cd of the skill.
 - Resolved various bugs around Pets addition, mainly based on structural problems.
 
-[02/10/2025]
+[02/11/2025]
 - Resolved various bugs around Monsters addition, mainly based on structural problems.
 - Reworked families descriptions in the Affinities Box.
 - Nerf: Family only count unique species of monsters into account for the family threshold.
 
-[05/10/2025]
+[05/11/2025]
 - Reworked the system to make Evolution possible.
 - Added Floating Eye sub-evolution to Evil Eye (Clean sprite + Ability Bright Gaze)
 - Modified Mini Blob sub-evolution to Blob (Clean sprite + Ability Jelly Spit + Passive Jelly Tenacity)
 - Added Gluant sub-evolution to Ooze (Clean sprite + Ability Slimy Spit)
 
-[07/10/2025]
+[07/11/2025]
 - Resolved a bug where Master Crafter Ability would make the game crash.
 - Modified Rootling sub-evolution to Mandragora (Clean sprite + Ability Sylvan Snare)
 - Modified Fungi sub-evolution to Fungeus (Clean sprite + Ability Spore Burst + Passive Spore Touch)
 - Added Wisp sub-evolution to Ghost (Clean sprite + Ability Spectral Bite + Passive Soul Eater)
 - Created icons for monsters.
 
-[08/10/2025]
+[08/11/2025]
 - Reworked UnitsBox
 - Added Tiers Stars to icons of monsters
 - Resolved a bug where if an enemy would be K.O from a status affected by a pet, it would crash because the kill could not be affected to an unit
@@ -321,5 +321,43 @@
 - Resolved a bug where some Battle Bars would not fit
 - Resolved a bug where the first attack would  be sent without any casting time
 
-[NEXT]
-This Sandbox will not have any update for at least 1 weak as I focus on different projects, my main goal for now is to focus on monsters, evolution line and Player UI.
+[24/11/2025]
+- Revamped game HUD.
+- Added Encyclopedia to gather informations on what the player discovered.
+- Reworked the Relic system -> The player will have the possibility to chose a Relic at the start of the run
+- Revamped the UnitBox to have all the informations gathered on 1 page
+- Reviewed all animations, offset and sprites of monsters.
+- Revamped statuses system.
+- Resolved various bugs around Mutations.
+- The status Curse now prevent heals, buffs and stat buffs.
+- Added Ghost
+- Modified Wisp Ability and Passive
+- Created Spirit Family
+
+[30/11/2025]
+- Added Remedy in lootable Consumable.
+- Resolved bug around MiniBlob passive.
+- Resolved bug where the Victory screen appeared twice.
+- Changed the position on BattleMap, I want it to be less random and basic formation for battle.
+- Revamped HUDInfoBox and UnitBox now give ALL INFORMATIONS needed in realtime.
+- Now the Statuses icon are Count Down (if no color in -> the status will disappear)
+- Reworked Fungi Spore Burst, Added animation and now result in a CRIT if the enemy is affected by some spores.
+- Added an ENCYCLOPEDIA check this out in the HUD top right (need to discover things to see them in the ENCYCLOPEDIA)
+- FloatingEye BrightGaze now can not miss.
+- Resolved a bug where Ingrain would not even drain HP from the targets affected by ROOT.
+- Revamped the maps choice during the adventure, the randomness is now more controlled
+- Added Wisp
+- Added Goblin (Might be too STRONG in early so might be hard nerf next patch)
+- Added Imp (revamped)
+- Added Green Skin family
+- Added Spirit Family
+- Totally revamped all enemies stats (It was almost impossible to win
+
+[30/12/2025] - UPCOMING
+- Revamp of Unfaithful Encounter Event
+- Addition of Grand Witch Altar and Fire Camp(Will add the creations of Elixirs, and possibility to heal mid run)
+- Revamp enemies design
+- Add icons for all the Skills, Families, Pets, Items…
+- Rework Ghost and Wisp design to match others monsters.
+- Revamp design for all enemies
+
