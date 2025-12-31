@@ -353,11 +353,34 @@
 - Added Spirit Family
 - Totally revamped all enemies stats (It was almost impossible to win
 
-[30/12/2025] - UPCOMING
-- Revamp of Unfaithful Encounter Event
-- Addition of Grand Witch Altar and Fire Camp(Will add the creations of Elixirs, and possibility to heal mid run)
-- Revamp enemies design
-- Add icons for all the Skills, Families, Pets, Items…
-- Rework Ghost and Wisp design to match others monsters.
-- Revamp design for all enemies
-
+[14/12/2025]
+- Updated HP Bar and EXP Bar.
+- Resolved a bug where Pick Pocket would double the items when retrieved
+- Resolved a bug where the items would switch place between 1 and 2
+- Reworked Goblin Passive and Mutation
+- Resolved a bug on mutations display in UnitBox
+- Introduced "Before" and "After" timing to resolve various bugs around attack and take_damage modifying methods
+- Resolved a bug where some "on_attack" would proc even if the attack miss
+- Resolved a bug where AS would impact some animations and also never reset stage at the end of battle
+- Resolved a bug where Consumables in Shop would also disappear
+- Resolved bugs where release a Monster would make the game crash
+- Changed Abilities CD for humans 10 -> 5
+- Infobox now close if the unit displayed is released and on map changing
+- Added Brutality, Durability, Rapidity, Velocity, Clarity and Agility Draught
+- Added Brutality, Durability, Rapidity, Velocity, Clarity and Agility Essence
+- Added essences as loot on monsters sacrifice
+- Implemented Craft method to create Draughts
+- Fixed prices of Shop
+- Resolved a bug where the EXP needed would not be the real one if the monster was summon higher level than 1
+- Resolved a bug where Infobox would not work because health_bar does not exist.
+- Resolved a bug where MiniBlob passive would activate only once instead of each battle
+- Added Shield Mecanic
+- Shields are now fully displayed in UnitBox and HUD.InfoBox
+- Reworked UnitsBox
+- Balanced the game: Now the player should have 4 to 6 monsters for the boss and most monsters should be around level 5
+- Resolved various display bugs around shield mecanic
+- Balanced rate of events.
+- Bug partially fixed where sometimes an Equipment quantity decrease to 0. (I litteraly can't point out what is doing it at all, need time to investigate it)
+- Balanced loots
+- Deleted Unfaithful Encounter Event
+- Addition of Abandoned Camp in events
