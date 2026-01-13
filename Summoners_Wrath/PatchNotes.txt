@@ -384,3 +384,50 @@
 - Balanced loots
 - Deleted Unfaithful Encounter Event
 - Addition of Abandoned Camp in events
+
+[31/12/2025]
+- Added Manual/Auto Mode for skills (Clic on the portrait to activate the skill during battle)
+- Added Zombald (Elixir, Mutation, Ability, Passive, Animations)
+- Added Ghoul (Elixir, Mutation, Ability, Passive, Animations)
+- Added Grunt (Elixir, Mutation, Ability, Passive, Animations)
+- Revamped Boxes (TutorialBox, UnitsBox, CraftBox, BagBox, EventBox, DialogBox, LootBox, FamilyBox, BattleReportBox, EncyclopediaBox, EncyclopediaInBox, UnitBox, UnitInfoBox, ShopBox)
+- Revamped HUD(Added Portraits of the team, still able to show personal info on unit by doing RIGHT CLIC on them)
+- Added Loot Section in Monsters/Enemies in Encyclopedia
+- Resolved various bugs around shield positionning
+- Suppressed various POPUP that were not useful anymore because animations replaced them.
+- Resolved bugs on Greedy Lunge (Animation, Range)
+- LootBox will show quantity now, not only the item.
+- Resolved bugs where releasing monsters would create glitch on HUD.
+
+[13/01/2026]
+- Added a button "INFO" to give the player basic informations on the monster in the BlackMarket before buying it
+- Reworked ReportBox
+- Added EndBox for Victory + Defeat screens with Stats and the ReportBox
+- Resolved a bug where the NPC boxes would show behind the HUD team container
+- Cleared Sacrificial sequence
+- Cleared Summoning sequence
+- Updated UnitsBox style
+- Now Map Events will only activate when the Player is close to them, the Player character will move toward the event. In a future update I will probably make it possible to play with Keyboard
+- Melee Units will now prioritize a target they hit as long as they are in range for Auto Attacks
+- Resolved a bug where it would not wait confirmation before buying an item
+- Revamped Shieldman
+- Revamped Swordman
+- Revamped Spearman
+- Revamped Bowman
+- Added Axeman
+- Resolved bug that prevented any range to use their abilities
+- Resolved HUD bug that would make some information unavailable
+- Resolved a bug where units could still move while affected by SLEEP
+- Added Immunity Buff
+- Range Units will prioritize a target in threatening range (attack_range/4) otherwise the logic remain the same as Melee Units
+- Resolved bugs in MysteriousDen
+- Resolved a bug where statuses were duplicated in UnitInfoBox
+- Added the possibility to give a nickname to monsters to differentiate duplicate units
+- Resolved a bug where it was still possible to open EventBox while the Witch was Moving toward the Event
+- Revamped Wisp
+- Revamped Ghost
+- Nerfed Zombald skills
+- Buffed Fungi skills
+- Resolved a bug that would drain a lot more HP than expect on Ingrain
+- Resolved bug where it was possible to open 2 Inventory
+- Resolved bug where manual skill request on Unit Portrait would not work
